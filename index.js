@@ -15,6 +15,10 @@ function extend(Child,Parent) {
     return c
 }
 
+/**
+ * 对象间拷贝
+ * 深浅拷贝*/
+
 //浅拷贝
 function extend_copy(p){
     var c = {}
